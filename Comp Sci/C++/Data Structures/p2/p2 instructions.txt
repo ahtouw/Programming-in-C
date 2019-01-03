@@ -1,0 +1,20 @@
+Write a C++ program that:
+
+1) constructs an ordered linked list to store integer values
+
+stores only transformed versions of odd prime numbers
+
+     if odd prime number ‘x’ is pushed, the (‘previous prime’ -1) is stored
+
+            5, 11, 17, 23, 29, …  pushed => 2, 6, 12, 18, 22, …  stored
+
+            1, 2, 4, 6, 8, 9 ,..                      would not be stored
+
+2) defines routines to:
+
+traverse the linked list
+insert an element into the linked list
+delete an element from the linked list
+ 
+
+3) tests the routines using a random number generator

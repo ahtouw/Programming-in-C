@@ -1,0 +1,22 @@
+Write a C++ program that:
+
+1) defines a bizarreQ type (class) that is a priority queue for integers that:
+
+supports the standard Q operations
+
+orders items by priority
+
+uses an internal heap data structure
+
+PLUS:
+
+supports the ability to ‘flush’ all odd numbers
+
+internally resizes when capacity is exceeded
+
+2) tests an instance of this bizarreQ type on integer data
+
+use a random number generator in your driver
+enqueue enough items to exceed initial capacity
+exercise all functionality (enqueue, dequeue, flush,…)
+3) dequeued items from the bizarreQ object to be sent to output file P4Output.txt

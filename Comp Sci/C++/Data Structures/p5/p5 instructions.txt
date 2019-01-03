@@ -1,0 +1,29 @@
+Write the C++ code (class design and driver) that:
+
+1) defines a hashTable type that
+
+supports the standard hashTable operations
+
+defines an appropriate hash function
+
+resolves collisions effectively and efficiently
+
+supports query for frequency
+
+2) uses this hashTable type to process the full text of War and Peace
+
+       Stores each distinct word of length 5 or greater from the text
+
+             Words are non-numeric and are case insensitive
+
+       Tallies the count of each distinct word
+
+             Incrementing the occurrence count each time the word appears
+
+3) repeats step #2 for Great Expectations
+
+4) dumps the following summary data to output file called P5Output.txt:
+
+       The number of distinct words of length 5 or greater in each text
+
+A formatted and readable list of the 15 words that occur most frequently in BOTH texts.

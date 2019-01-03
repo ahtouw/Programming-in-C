@@ -1,0 +1,23 @@
+Write a C++ program that:
+
+1) defines a primeDupBST type (class) that:
+
+provides all the capabilities of a standard BST
+search, insert, and remove
+
+is a well-designed C++ class
+copying is handled appropriately
+constructor and destructor defined and implemented
+implements recursive inorder traversal
+implements an ITERATIVE preorder traversal
+does not store duplicates of non-prime numbers
+stores ‘duplicates’ of PRIME numbers using a count field
+increment count upon insertion
+decrement count upon deletion
+remove element if count goes to zero
+2) uses a driver to test this primeDupBST type on integer data
+
+initial construction via random number generator
+arbitrarily insert and remove values
+dump preorder traversal to output file “P3out.txt”
+dump inorder traversal to output file “P3out.txt”

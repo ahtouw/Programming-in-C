@@ -1,0 +1,19 @@
+Write a C++ program that:
+
+1) defines a tPS type (transformPrimeStack) that is much like a regular stack but
+
+a) stores only transformed versions of odd prime numbers
+     if odd prime number ‘x’ is pushed, the (‘previous prime’ -1) is stored
+
+          5, 11, 17, 23, 29, …  pushed => 2, 6, 12, 18, 22, …  stored
+
+          1, 2, 4, 6, 8, 9 ,..              would not be stored
+
+b) doubles in size automatically if storage space exceeded
+2) tests this tPS type on integer data
+
+          Reads in integer data from P1Input.txt file
+
+          Stores all unique integers, LIFO, in tPS object. 
+
+3) dumps tPS object contents to output file called P1Output.txt
